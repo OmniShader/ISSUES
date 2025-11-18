@@ -1,3 +1,3 @@
-# ISSUES
+# Omni Shader Issues
 
-Issues repo for Omin Shader Tools
+Welcome to the Omni Shader issues repository. If you have any issues or feature requests, please file an issue.
