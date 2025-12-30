@@ -1,4 +1,4 @@
-# Change Log
+# Change Log of Omni Shader Tools for Godot
 
 ## 1.0.0
 
