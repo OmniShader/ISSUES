@@ -1,0 +1,187 @@
+# Change Log
+
+## 1.0.2
+
+Add Linux support, and Happy New Year and best wishes to you and your family!
+
+## 1.0.1
+
+- Add `UnityPerMaterial`, `UnityPerFrame` and `UnityPerDraw` to completion
+- Add a setting `omnishader.disableCompiledShader` for disabling language features of compiled or generated shader file from Unity Editor Inspector and enabled by default
+- Fix an IO error when activating license
+
+## 1.0.0
+
+- Add parser support for namespace and enum of hlsl
+- Add formatting support for namespace and enum of hlsl
+- Add hover information support for tags
+- Improve notification information for more clarity
+- Fix a formatting bug that macro call will not break into new line in some cases
+- Fix a bug that vscode will open non-existed file in Go To Definition feature
+- Fix a bug that else clause formatting will be broken in some cases
+
+## 0.0.31b
+
+- Improve license activation workflow to make it more smooth
+
+## 0.0.30b
+
+- Add `#version` support for glsl
+- Add some missing builtin functions and types for hlsl
+- Fix bug that cannot get members of array item in completions
+- Fix bug that cause mismatch errors are not correctly for conditional expression
+
+## 0.0.29b
+
+- Add completions and hover information support for `#pragma` directives 
+- Fix a syntax parser bugs that cause functions to be missing in intellisense 
+- Fix some formatting bugs
+
+## 0.0.28b
+
+- Hot fix for IO error when activating omnishader
+
+## 0.0.27b
+
+- Add support for include path start with "Assets"
+- Add some missing builtin functions for dx12
+- Fix bug that path intellisense not provide library files in same folder in some cases
+- Fix bug that function parameter with default value will be parsed incorrectly
+
+## 0.0.26b
+
+- Add formatting setting option for macro `omnishader.formatting.macroMatchIndent`
+- Add path intellisense support for `#include`
+- Add support for `#warning`
+- Improve tags formatting that tags items will wrap to next line if tags count larger than 3
+
+## 0.0.25b
+
+- Add support for function declaration parameter with default value
+- Add support for generic types
+- Add some missing primitive types for hlsl
+- Add support for multiple variables list with default value assigned
+- Add support for parameter list with preprocessor of function declaration
+- Fix unresolved symbol diagnostics for some cases
+
+## 0.0.24b
+
+- Show information message when license is activating
+- Fix bug that error diagnostics for matrix swizzling incorrect in some cases
+
+## 0.0.23b
+
+- Fix a bug that Omni Shader Activate command is not response sometimes
+e
+## 0.0.22b
+
+- Hot fix a crash bug in backend language server
+
+## 0.0.21b
+
+- Add support for `CustomEditorForRenderPipeline`
+- Add support for .editorconfig
+- Add formatting support for tabsize and insert spaces base on vscode editor config
+- Add some missing HLSL builtin functions
+- Improve error diagnostics on conditional blocks and assignments
+
+## 0.0.20b
+
+- Hot fix for a regression bug for formatting
+
+## 0.0.19b
+
+- Add syntax parser support for initializer list
+- improve glsl support for builtin variables
+
+
+## 0.0.18b
+
+- Hot fix: fix bug that cannot execute Omni Shader Activate command
+
+## 0.0.17b
+
+- Fixed Function expression are case insensitive now
+- Fix bug that macro call in struct will show errors in some cases
+- Fix few formatting bugs
+- Fix few syntax parser errors
+
+## 0.0.16b
+
+- Add generic type support for type mismatch error diagnostics
+- Add INCLUDECG and INCLUDEHLSL support
+- Add support for Grab Pass
+- Add support for formatting to be able to place braces on new lines or not by setting `omnishader.formatting.braceOnNewLine` to true or false
+- Fix bunch of document formatting bugs
+
+## 0.0.15b
+
+- Add type mismatch error diagnostics support for assignments, binary expressions and conditional blocks
+- Improve error diagnostics for unresolved symbols
+- Improve hover information for some types
+- Fix bug that basic completion in free mode is not working in some scenarios
+- Fix bug that no error dialog will show if activate license failed
+
+## 0.0.13b
+
+- Improve language server startup time
+
+## 0.0.12b
+
+- Add support for cbuffer or tbuffer statements
+- Fix bug that variables in conditional block are not included in definitions
+- Fix bug that variables declaration with default value are not included in definitions
+- Serveral bug fixes that finding definitions of symbols are not correctly
+
+## 0.0.11b
+
+- Disable diagnostics by default, enable it by setting `omnishader.enableDiagnostics` to true
+
+
+## 0.0.10b
+
+- Add support for opening shader files outside a project, but intellisense is not fully supported due to lack of unity editor version information
+- Add support for `#include_with_pragmas` directive of Unity
+- Add diagnostics support for include errors, undefined symbols errors, syntax errors and missing symbols errors
+- Improve workspace searching algorithms
+
+## 0.0.8b
+
+- Improve include file searching algorithms
+- Fix bug that lower case 'pass' will break code formatting
+- Fix bug that remove all contents of a shader will break intellisense
+
+## 0.0.7b
+
+- License checking supports offline now
+- Fix bug that code completion in string and comments provide incorrect results
+- Fix bug that backend language server stops working when provided incorrect path to backend language server
+- Fix bug that code formatting will be broken in some scenario when fixed function in Pass 
+
+
+## 0.0.6b
+
+- Add fallback syntax support for shaderlab
+- Improve include file search algorithms for better performance and stability
+- Fix bug that comments at the beginning of shader will break parsing
+- Fix bug that inline functions are parsing incorrectly
+- Fix bug that uniform variables are sometimes parsing incorrectly
+
+## 0.0.5b
+
+- Update metadata
+
+## 0.0.4b
+
+- Add command "Omni Shader: Open Web Site"
+- Fix binary expression formatting bug
+- Fix number literal formatting bug
+
+## 0.0.3b
+
+- Improve hover information on functions 
+- Downgrade VSCode version requirement to 1.95.0+
+
+## 0.0.1b
+
+- First beta release
