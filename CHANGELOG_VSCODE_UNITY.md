@@ -1,4 +1,4 @@
-# Change Log
+# Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
 ## 1.0.2
 
