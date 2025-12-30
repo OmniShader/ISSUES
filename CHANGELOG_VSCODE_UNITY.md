@@ -1,5 +1,10 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.0.3
+
+- Fix a bug that path parsing is not correctly in some cases
+- Fix a parser bug about 'varying' keyword that may break intellisense
+  
 ## 1.0.2
 
 Add Linux support, and Happy New Year and best wishes to you and your family!
