@@ -1,0 +1,22 @@
+# Change Log
+
+## 1.0.0
+
+- Fix some formatting bugs
+- Fix io error when license activation
+
+## 0.0.4b
+
+- Fix bug that backend language server crash sometimes
+
+## 0.0.3b
+
+- Improve performance and fix init list syntax bug
+
+## 0.0.2b
+
+- Add some keywords
+
+## 0.0.1b
+
+- First beta release
