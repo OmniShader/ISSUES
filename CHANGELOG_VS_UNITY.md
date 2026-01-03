@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.0.3
+
+- Add intellisense support for Enumeration
+- Fix outlining is not working when error dialognostics are disabled.
+- Fix a formatting bug for block comments
+  
 ## 1.0.2
 
 - Fix a bug that path parsing is not correctly in some cases
