@@ -1,5 +1,10 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.0.4
+
+- Add intellisense support for Enumeration
+- Fix a formatting bug for block comments
+
 ## 1.0.3
 
 - Fix a bug that path parsing is not correctly in some cases
