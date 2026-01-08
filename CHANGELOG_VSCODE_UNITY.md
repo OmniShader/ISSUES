@@ -1,5 +1,12 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.0.5
+
+- Add incremental syntax parsing mode, defaulting to `true`. If you encounter some unexpected errors, try to disable it in settings `omnishader.incrementalParsing`
+- Improve shader file searching and matching algorithm to speed up language server startup
+- Fix bug that clearing content of shader will make backend language server stop working
+- Fix bug that code parsing may be broken by field access in some cases
+
 ## 1.0.4
 
 - Add intellisense support for Enumeration
