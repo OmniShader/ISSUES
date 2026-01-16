@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.0.3
+
+- Improve license activation workflow
+- Fix bug that members of buffer statement are missing
+  
 ## 1.0.2
 
 - Fix bug that while/for loop body without braces will not break into new line 
