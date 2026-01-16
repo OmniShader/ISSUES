@@ -1,5 +1,16 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.0.7
+
+- Optimize workspace setup time during language server startup
+- Fix bug that members of buffer statement are mssing
+
+## 1.0.6
+
+- Fix bug that code completion return no results when code line start with `#` in some cases
+- Fix bug that workspace path with spaces will cause shader searching failed
+- Fix bug that while/for loop body without braces will not break into new line 
+
 ## 1.0.5
 
 - Add incremental syntax parsing mode, defaulting to `true`. If you encounter some unexpected errors, try to disable it in settings `omnishader.incrementalParsing`
