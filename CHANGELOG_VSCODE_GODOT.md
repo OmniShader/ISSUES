@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for Godot
 
+## 1.0.1
+
+- Update project root search alogorithm
+- Improve license activation workflow
+- Add completions for shader_type and render_mode
+
 ## 1.0.0
 
 - Fix some formatting bugs
