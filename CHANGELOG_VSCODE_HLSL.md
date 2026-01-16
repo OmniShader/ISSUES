@@ -1,4 +1,4 @@
-# Change Log
+# Change Log of Omni Shader Tools for HLSL (VSCode Extension)
 
 ## 1.0.3
 
