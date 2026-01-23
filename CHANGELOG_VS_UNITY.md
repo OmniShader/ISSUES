@@ -1,5 +1,12 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.0.7
+
+- Open full SignatureHelp feature to Basic version
+- Add document comments support for properties in shaderlab syntax
+- Add C# style document comments support for tags `summary`, `param` and `returns`
+- When inputting a document comment `///` on functions/fields/variables, automatically generate C# style XML documentation 
+
 ## 1.0.6
 
 - Optimize workspace setup time during language server startup
