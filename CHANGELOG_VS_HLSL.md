@@ -1,5 +1,16 @@
 # Change Log of Omni Shader Tools for HLSL (VS Extension)
 
+## 1.0.4
+
+- Add javadoc style document comments support. The supported tags are @params and @return
+- Add docgen tags support for `@brief` and `@details`
+- When inputting a document comment `//*` on functions/fields/variables, automatically generate javadoc style documentation
+- Improve information display on hover information
+- Fix a possible crash that caused by copy&paste in VS2026
+- Fix a possible crash that caused by very large shader files
+- Fix a bug that '\t' was not correctly parsed in document comments template
+- Fix a bug that hover information does not show up when hovering macro function definition
+
 ## 1.0.3
 
 - Fix a crash bug that caused by possible out of bound exception.
