@@ -1,5 +1,14 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.0.9
+
+- Add a status bar item to show backend language server status
+- Add javadoc style document comments support. The supported tags are @params and @return
+- Add docgen tags support for `@brief` and `@details`
+- When inputting a document comment `//*` on functions/fields/variables, automatically generate javadoc style documentation
+- Improve information display on hover information
+- Fix a bug that hover information does not show up when hovering macro function definition
+
 ## 1.0.8
 
 - Open full SignatureHelp feature to Basic version
