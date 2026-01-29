@@ -1,5 +1,15 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.0.8
+
+- Add javadoc style document comments support. The supported tags are @params and @return
+- Add docgen tags support for @brief
+- When inputting a document comment `//*` on functions/fields/variables, automatically generate javadoc style documentation
+- Improve information display on hover information
+- Fix a possible crash that caused by copy&paste in VS2026
+- Fix a possible crash that caused by very large shader files
+- Fix a bug that '\t' was not correctly parsed in document comments template
+
 ## 1.0.7
 
 - Open full SignatureHelp feature to Basic version
