@@ -1,5 +1,19 @@
 # Change Log of Omni Shader Tools for Godot
 
+## 1.0.4
+
+- Add Linux support
+- Update javadoc style document comments template
+- Clicking the "Omni Shader" status bar item will now check license status
+- Support hover information for normal macro definitions
+
+## 1.0.3
+
+- Add a status bar item to show backend language server status
+- Add javadoc style document comments support. The supported tags are @params and @return
+- When inputting a document comment `//*` on functions/fields/variables, automatically generate javadoc style documentation
+- Fix a bug that '\t' was not correctly parsed in document comments template
+
 ## 1.0.2
 
 - Open full SignatureHelp feature to Basic version
