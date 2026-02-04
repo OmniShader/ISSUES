@@ -1,5 +1,12 @@
 # Change Log of Omni Shader Tools for HLSL (VSCode Extension)
 
+## 1.0.6
+
+- Add hover information support for normal macro definitions if they have document comments
+- Add support for enums with bitfield clauses
+- Improve hover information by ignoring some inline doxygen tags
+- Clicking the "Omni Shader" status bar item will now check license status
+
 ## 1.0.5
 
 - Add a status bar item to show backend language server status
