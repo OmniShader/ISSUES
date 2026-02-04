@@ -1,5 +1,12 @@
 # Change Log of Omni Shader Tools for HLSL (VS Extension)
 
+## 1.0.5
+
+- Add a status bar text to show backend language server status
+- Add hover information support for normal macro definitions if they have document comments
+- Add support for enums with bitfield clauses
+- Improve hover information by ignoring some inline doxygen tags
+
 ## 1.0.4
 
 - Add javadoc style document comments support. The supported tags are @params and @return
