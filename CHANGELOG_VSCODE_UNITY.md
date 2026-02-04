@@ -1,5 +1,16 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.1.1
+
+- Quick fix for a bug that document comments have inline tags was broken in some cases
+
+## 1.1.0
+
+- Add hover information support for normal macro definitions if they have document comments
+- Add support for enums with bitfield clauses
+- Improve hover information by ignoring some inline doxygen tags
+- Clicking the "Omni Shader" status bar item will now check license status
+
 ## 1.0.9
 
 - Add a status bar item to show backend language server status
