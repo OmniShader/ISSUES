@@ -1,5 +1,15 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.1.0
+
+Add the Live Testing feature which can grey out preprocessor directive code blocks that don't match conditions, by using comments starting with `//!` and followed by some keywords. 
+
+Multiple keywords are joined by `;` and use `:` to join the keyword and its value. 
+
+For example: `//! DEBUG;STEP:1` has two keywords, one is `DEBUG` and the other is `STEP` with value `1`. 
+
+This feature is not available in the Basic version.
+
 ## 1.0.9
 
 - Add a status bar text to show backend language server status
