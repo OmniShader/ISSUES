@@ -1,5 +1,23 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.1.3
+
+About Live Testing feature, see more details in this blog: <https://omnishader.amlovey.com/blog/?blog=live-testing>
+
+Updates in this release:
+- Improve notification message display logic
+- Fix a bug that live testing result is not correct in some cases
+
+## 1.1.2
+
+Add the Live Testing feature which can grey out preprocessor directive code blocks that don't match conditions, by using comments starting with `//!` and followed by some keywords. 
+
+Multiple keywords are joined by `;` and use `:` to join the keyword and its value. 
+
+For example: `//! DEBUG;STEP:1` has two keywords, one is `DEBUG` and the other is `STEP` with value `1`. 
+
+This feature is not available in the Basic version.
+
 ## 1.1.1
 
 - Quick fix for a bug that document comments have inline tags was broken in some cases
