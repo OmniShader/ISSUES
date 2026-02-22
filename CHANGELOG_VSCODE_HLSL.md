@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for HLSL (VSCode Extension)
 
+## 1.0.7
+
+- Add .hlsli file support
+- Add the Live Testing feature which can grey out preprocessor directive code blocks that don't match conditions, by using comments starting with `//!` and followed by some keywords. This feature is not available in the Basic version. See more details in <https://omnishader.amlovey.com/blog/?blog=live-testing>.
+- Improve notification message display logic
+
 ## 1.0.6
 
 - Add hover information support for normal macro definitions if they have document comments
