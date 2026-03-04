@@ -1,5 +1,14 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.1.5
+
+- Fix a bug that backend file watcher are broken by moudle not found error
+- Fix a bug that Omni Shader report license activation failed when has spaces or tabs before or after the license key
+
+## 1.1.4
+
+Add Quick Trial Feature which can help basic mode users to use all features of Omni Shader quickly without account required, but the trial duration is just 1 day. 
+
 ## 1.1.3
 
 About Live Testing feature, see more details in this blog: <https://omnishader.amlovey.com/blog/?blog=live-testing>
