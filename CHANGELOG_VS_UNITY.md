@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+
+## 1.1.1
+
+- Improve backend language server launch time by ignoring scanning of all shaders when launching
+- Fix some formatting bugs
+
 ## 1.1.0
 
 Add the Live Testing feature which can grey out preprocessor directive code blocks that don't match conditions, by using comments starting with `//!` and followed by some keywords. 
