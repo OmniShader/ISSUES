@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.1.6
+
+- Improve backend language server launch time by ignoring scanning of all shaders when launching
+- Improve license activation workflow to make it more smooth
+- Fix some formatting bugs
+
 ## 1.1.5
 
 - Fix a bug that backend file watcher are broken by moudle not found error
