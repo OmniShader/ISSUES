@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for HLSL (VSCode Extension)
 
+## 1.0.8
+
+- Improve backend language server launch time by ignoring scanning of all shaders when launching
+- Improve license activation workflow to make it more smooth
+- Fix a bug that backend file watcher are broken by moudle not found error
+
 ## 1.0.7
 
 - Add .hlsli file support
