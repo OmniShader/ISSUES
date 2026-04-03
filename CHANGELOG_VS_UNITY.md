@@ -1,5 +1,9 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.1.2
+
+- Add Rename Symbol feature
+- Fix bug that Find Reference may not contains all results in some cases
 
 ## 1.1.1
 
