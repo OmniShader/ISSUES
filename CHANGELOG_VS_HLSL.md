@@ -1,5 +1,15 @@
 # Change Log of Omni Shader Tools for HLSL (VS Extension)
 
+## 1.0.8
+
+- Add Rename Symbol feature
+- Fix bug that Find Reference may not contains all results in some cases
+
+## 1.0.7
+
+- Improve backend language server launch time by ignoring scanning of all shaders when launching
+- Fix some formatting bugs
+
 ## 1.0.6
 
 - Add .hlsli file support
