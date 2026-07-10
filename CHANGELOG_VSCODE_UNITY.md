@@ -1,5 +1,16 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+
+## 1.1.9
+
+- Fix a bug that i18n don't work in some cases
+
+## 1.1.8
+
+- Add completion support for `#pragma require`
+- i18N: add lagnuage support for zh-cn, ja, ko for extension UI
+- Fix some minor bugs
+
 ## 1.1.6
 
 - Improve backend language server launch time by ignoring scanning of all shaders when launching
