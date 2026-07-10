@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.1.3
+
+- Add completion support for `#pragma require`
+- i18N: add lagnuage support for zh-cn, ja, ko for extension UI
+- Fix some minor bugs
+
 ## 1.1.2
 
 - Add Rename Symbol feature
