@@ -1,11 +1,12 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.2.0
+
+- Add extension i18n support for `de`
+- Fix i18n translation for some languages
+- Fix some documentation issue in hover information
 
 ## 1.1.9
-
-- Fix a bug that i18n don't work in some cases
-
-## 1.1.8
 
 - Add completion support for `#pragma require`
 - i18N: add lagnuage support for zh-cn, ja, ko for extension UI
