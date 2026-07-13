@@ -1,5 +1,9 @@
 # Change Log of Omni Shader Tools for HLSL (VS Extension)
 
+## 1.1.0
+
+- Add i18n support for extension UI, including `zh-cn`, `ko`, `ja` and `de`
+
 ## 1.0.8
 
 - Add Rename Symbol feature
