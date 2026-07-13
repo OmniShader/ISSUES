@@ -1,5 +1,10 @@
 # Change Log of Omni Shader Tools for HLSL (VSCode Extension)
 
+## 1.1.0
+
+- Add i18n support for extension UI, including `zh-cn`, `ko`, `ja` and `de`
+- Add one-click quick trial to experience all pro features for 1 day
+
 ## 1.0.8
 
 - Improve backend language server launch time by ignoring scanning of all shaders when launching
