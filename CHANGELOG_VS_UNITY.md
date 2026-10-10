@@ -1,5 +1,10 @@
 # Change Log of Omni Shader Tools for Unity (VS Extension)
 
+## 1.1.4
+
+- Add code completion for `Fallback`, but this feature requires **Omni Shader Tools for Unity Editor** to be installed in the Unity project. This feature is also available in basic version
+- Add extension i18n support for `Français`, `Português (Brasil)` and `Español`
+
 ## 1.1.3
 
 - Add completion support for `#pragma require`
