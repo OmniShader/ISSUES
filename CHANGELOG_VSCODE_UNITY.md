@@ -1,5 +1,11 @@
 # Change Log of Omni Shader Tools for Unity (VSCode Extension)
 
+## 1.2.1
+
+- Add code completion for `Fallback`, but this feature requires **Omni Shader Tools for Unity Editor** to be installed in the Unity project. This feature is also available in basic version
+- Add command `Omni Shader: Install Omni Shader Tools for Unity Editor` that installs the package into the `Packages` folder under the Unity project root
+- Add extension i18n support for `Français`, `Português (Brasil)` and `Español`
+
 ## 1.2.0
 
 - Add extension i18n support for `de`
